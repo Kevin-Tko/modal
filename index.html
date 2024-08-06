@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>modal-component</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <section class="container">
+            <div class="container-btn">
+                <button class="btn">Show modal 1</button>
+                <button class="btn">Show modal 2</button>
+                <button class="btn">Show modal 3</button>
+            </div>
+            <div class="overlay hidden"></div>
+            <div class="container-modal hidden">
+                <button class="icon">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+                <div class="heading-box">
+                    <h2 class="headng-secondary">I'm a Modal</h2>
+                </div>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deserunt explicabo necessitatibus atque modi odio
+                    repellendus inventore vel ea! Ab aliquam ut nihil eius
+                </p>
+            </div>
+        </section>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
